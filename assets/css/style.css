@@ -1,0 +1,19 @@
+body {
+    @apply bg-gray-800 mx-auto flex items-center justify-center
+}
+
+.main {
+    @apply p-[40px] w-[400px] bg-white rounded 
+}
+
+.title-side {
+    @apply flex items-center justify-center
+}
+
+.title-side h1 {
+    @apply text-[24px] text-black
+}
+
+#amount {
+    @apply outline-none h-[50px] w-full border rounded px-4
+}
